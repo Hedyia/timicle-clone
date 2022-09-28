@@ -30,10 +30,19 @@ export class TimicleComponent implements OnInit {
       );
       const sinceDate = new Date(period);
       this.since = `${sinceDate.getFullYear()}Y ${sinceDate.getMonth()}M`;
-      this.meta.updateTag({property: 'og:title', content: this.timicle.title!});
-      this.meta.updateTag({property: 'og:description', content: this.timicle.description!});
-      this.meta.updateTag({property: 'og:image', content: this.timicle.heroImageUrl!});
-      this.meta.updateTag({property: 'og:url', content: 'wwww.timicle.com'})
+      this.meta.updateTag({
+        property: 'og:title',
+        content: this.timicle.title!,
+      });
+      this.meta.updateTag({
+        property: 'og:description',
+        content: this.timicle.description!,
+      });
+      this.meta.updateTag({
+        property: 'og:image',
+        content: this.timicle.heroImageUrl!,
+      });
+      this.meta.updateTag({ property: 'og:url', content: 'wwww.timicle.com' });
     });
   }
   dateDiffInDays(a: Date, b: Date): number {
