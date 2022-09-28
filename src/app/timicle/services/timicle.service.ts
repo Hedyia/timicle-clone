@@ -7,7 +7,7 @@ export class TimicleSercice {
   constructor(private http: HttpClient) {}
   getTimcleById(id: string) {
     return this.http.get<Timicle>(
-      `http://timicle.azurewebsites.net//api/v1/timicle/${id}=`
+      `http://timicle.azurewebsites.net/api/v1/timicle/${id}=`
     );
   }
 }
