@@ -1,0 +1,464 @@
+.col-md-6 {
+    max-width: 345px;
+  } 
+  
+  .App {
+    height: 100vh;
+    margin: 40px auto;
+  }
+  .title {
+    opacity: 1;
+    color: #000201;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: -0.86px;
+    text-align: left;
+    margin-top: 50px;
+  }
+  
+  .first-section {
+    width: 345px;
+    margin: 3px;
+  }
+  .second-section {
+    width: 345px;
+    margin: 3px;
+  }
+  .slider {
+    width: 345px;
+    background-color: #000201;
+    margin: auto;
+  }
+  .date-slider {
+    background-color: #000201;
+    margin: auto;
+  }
+  
+  
+  .timicle-date {
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  
+  }
+  
+  .timicle-date--month {
+    
+    padding: 0px;
+    color: #000201;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: -0.5px;
+    text-align: left;
+  }
+  
+  .timicle-date--year {
+    padding: 0px;
+    opacity: 1;
+    color: 7. #000201;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: -1.25px;
+    text-align: right;
+  }
+  
+  .timicle-birthday {
+      padding: 3px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .timicle-birthday--birthday {
+      display: flex;
+      align-items: center;
+      padding: 0px 5px;
+  }
+  .timicle-birthday--birthday > h5 {
+      margin-left: 10px;
+      margin-top: 5px;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: -0.46px;
+      color: #4A4A4A;
+  }
+  
+  .timicle-birthday--todate {
+      display: flex;
+      align-items: center;
+      padding: 0px 5px;
+      align-items: flex-end;
+  }
+  
+  .timicle-birthday--todate > h5 {
+      margin-right: 10px;
+      margin-top: 5px;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: -0.46px;
+      color: #4A4A4A;
+  }
+  
+
+  
+  .timicle-title {
+    padding: 0px 5px;
+  }
+  
+  .timicle-title--cateogry {
+    color: #D0021B;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: -0.46px;
+    text-align: left;
+  }
+  
+  .timicle-title--title {
+    color: #4A4A4A;
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: -0.6px;
+    text-align: left;
+    font-style: normal;
+  }
+  
+  .timicle-resource-info {
+    margin-top: 20px;
+    display: flex;
+    float: right;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .timicle-resource-item > h5 {
+    color: #4A4A4A;
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: -0.3px;
+  }
+  .resource-count {
+    background-color: #000201;
+    border-radius: 2px;
+    width: 55px;
+    height: 20px;
+    margin: 2px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+  }
+  
+  .resource-count .cal-icon {
+    width: 15px;
+    height: 14px;   
+  }
+  .resource-count .media-icon {
+    width: 16px;
+    height: 14px;   
+  }
+  .resource-count .bookmark-icon {
+    width: 9px;
+    height: 14px;   
+  }
+  
+  
+  .resource-count > span {
+    color: #FFFFFF;
+     font-weight: 500;
+     font-size: 12px;
+     letter-spacing: -0.342857px;
+     line-height: 20px;
+  }
+  
+  .timicle-publisher {
+    display: flex;
+    width: 100%;
+  }
+  
+  .timicle-publisher--logo {
+    width: 36px;
+    height: 36px;
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+    margin-right: 5px;
+  }
+  
+  .timicle-publisher--followers-count > h3 {
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: -0.4px;
+    color: #4A4A4A;
+  }
+  
+  
+  .timicle-publisher--followers-count > span {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: -0.3px;
+    color: #4A4A4A;
+    margin-right: 4px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .timicle-publisher--followers-count > img {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+  }
+  
+  .app-store {
+    text-align: center;
+  }
+  
+  .app-store > p {
+    opacity: 1;
+    color: #4A4A4A;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: -0.34px;
+    text-align: center;
+  }
+  
+  .app-store > p > strong {
+    opacity: 1;
+    color: #4A4A4A;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -0.34px;
+    text-align: center;
+  }
+  
+  
+  .app-store > a > img {
+    width: 120px;
+    height: 41.69px;
+    margin: 25px 0;
+  
+  }
+  
+  .footer {
+    background-color: #F5F5F5;
+  }
+  .timicle-about {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 45px;
+  }
+  
+  .timicle-about > p  {
+    opacity: 1;
+    color: #4A4A4A;
+    font-family: "Roboto";
+    font-size: 11px;
+    font-style: normal;
+    letter-spacing: -0.31px;
+    text-align: left;
+  }
+  
+  .timicle-about > p > strong  {
+    opacity: 1;
+    color: #4A4A4A;
+    font-family: "Roboto";
+    font-size: 11px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -0.31px;
+    text-align: left;
+    display: block;
+  }
+  .google-play {
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 1;
+    color: #4A4A4A;
+    font-family: "Roboto";
+    font-size: 11px;
+    font-style: normal;
+    letter-spacing: -0.31px;
+    text-align: left;
+  }
+  
+  .copy-right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding-bottom: 10px;
+  }
+  .copy-right .timicle-info {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 15px;
+    
+  }
+  
+  .copy-right .timicle-info p {
+    opacity: 1;
+    color: #4A4A4A;
+    font-family: "Roboto";
+    font-size: 11px;
+    font-style: normal;
+    letter-spacing: -0.31px;
+    text-align: left;
+    margin-right: 3px;
+  }
+  
+  .copy-right .timicle-info > img {
+    height: 14px;
+    width: 14px;
+    margin-right: 3px;
+  }
+  .copy-right .footer-sub-menu {
+    flex: 1;
+    opacity: 1;
+    color: #4A4A4A;
+    font-family: "Roboto";
+    font-size: 11px;
+    font-style: normal;
+    letter-spacing: -0.31px;
+    text-align: left;
+  }
+  
+  .timeline-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-timicles {
+    width: 82px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .timeline-timicle-item {
+    width: 40px;
+    height: 40px;
+    margin: 0.5px;
+  }
+  
+  .timeline-timestream {
+    border-radius: 2px;
+    opacity: 1;
+    background-color:  #000201;
+    width: 70px;
+    height: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .timeline-details {
+    margin-left: 10px;
+    width: 200px;
+  }
+  .timeline-timestream > h4 {
+    opacity: 1;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: -0.29px;
+  }
+  .timeline-timicles-followers-count {
+    opacity: 1;
+    color: #4A4A4A;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.34px;
+    text-align: left;
+  }
+  .timeline-description { 
+    margin-top: 5px;
+    padding: 0px;
+  }
+  .timeline-description > h3 {
+    padding: 0px;
+    margin: 0px;
+    opacity: 1;
+    color: #4A4A4A;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: -0.46px;
+    text-align: left;
+  }
+  
+  .hero-image {
+    width: 345px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .media-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 345px;
+  }
+  
+  .media-items > img {
+    width:  65px;
+    height: 65px;
+    margin: 2px;
+  }
+  
+  .resource-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .resource-item-img {
+    width:40px;
+    height: 40px;
+  }
+  
+  .resource-item-content {
+    opacity: 1;
+  color:#4A4A4A;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.34px;
+  text-align: left;
+  }
+  .resources {
+    margin-bottom: 50px;
+  }
+  @media only screen and (min-width: 690px) {
+   .App {
+    width: 690px;
+   }
+   .date-slider {
+    width: 690px;
+   }
+   .hero-image {
+    width: 690px;
+    height: 400px;
+   }
+  }
+  
+  @media only screen and (max-width: 689px) {
+    .App {
+     width: 345px;
+    }
+    .date-slider {
+      width: 345px;
+     }
+   }

@@ -1,0 +1,30 @@
+<div class="App">
+  <div class="date-headline">
+    <div class="date-slider" style="height: 5px"></div>
+    <div class="timicle-date">
+      <div class="timicle-date-month">
+        <h4>{{ timicle.month | date: "MMMM" }}</h4>
+        <h4>{{ timicle.day }}</h4>
+      </div>
+      <h3 class="timicle-date--year">{{ timicle.year }}</h3>
+    </div>
+    <div class="date-slider" style="height: 1px"></div>
+    <div class="timicle-bithday">
+      <div class="timicle-birthday--today">
+        <h5>{{ this.since }}</h5>
+        <img src="../../../../assets/images/ToDate.png" alt="todate" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="first-section col-sm-12 col-md-6">
+        <img class="hero-image" [src]="timicle.heroImageUrl" />
+        <div class="timicle-title">
+          <h2 class="timicle-title--cateogry">{{ timicle.category }}</h2>
+          <h1 class="timicle-title--title">
+            {{ timicle.title }}
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
