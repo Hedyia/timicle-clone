@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { TimicleSercice } from '../../services/timicle.service';
-import { Timicle } from '../../types/timicle';
+import { Timicle } from '../../types/Timicle';
 
 @Component({
   selector: 'tc-timicle',

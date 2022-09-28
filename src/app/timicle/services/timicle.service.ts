@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Timicle } from '../types/timicle';
+import { Timicle } from '../types/Timicle';
+
 @Injectable()
 export class TimicleSercice {
   constructor(private http: HttpClient) {}
